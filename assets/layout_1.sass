@@ -1,0 +1,46 @@
+@import _variables.sass
+
+.container
+    display: grid
+    // grid-template-rows: repeat(7, 1fr)
+    // grid-template-columns: repeat(4, 1fr)
+    @include square(800px)
+    grid-template-areas: "head  head  head  head  head  head  head  "
+                         "main  main  main  main  main  main  main  "
+                         "main  main  main  main  main  main  main  "
+                         "foot  foot  foot  foot  foot  foot  foot  "
+                         
+    margin: 50px auto
+    grid-gap: 20px
+    header
+        // grid-column: 1/-1
+        // grid-row: 1/2
+        grid-area: head
+        +fill(#6495ed)
+    main
+        // grid-column: 1/-1
+        // grid-row: 2/-2
+        grid-area: main
+        article
+            display: grid
+            height: 100%
+            grid-template-columns: repeat(3, 1fr) 0.9fr
+            grid-template-rows: repeat(4, 1fr)
+            grid-gap: 20px
+            & > *
+                +fill(#6495ed)
+            section
+                grid-row: 1/ span 1
+            .main-section
+                grid-column: 1/-2
+                grid-row: 2/-1
+            aside
+                grid-row: 1/-1
+                // margin-left: 20px
+    footer
+        +fill(#6495ed)
+        // grid-column: 1/-1
+        grid-area: foot
+                
+
+
