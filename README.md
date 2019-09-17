@@ -17,25 +17,26 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 
 A simple layout, where I nested a grid inside the main grid. 
 
-![Layout 1](assets/README/layout_1/layout_1.png) ***Finished layout***
+- ***Finished layout***
 
+    ![Layout 1](assets/README/layout_1/layout_1.png) 
 
 ------
+- ***Outer grid***
+  
+        .container
+            grid-template-rows: repeat(7, 1fr)
+            grid-template-columns: repeat(4, 1fr)
 
-![Outer grid](assets/README/layout_1/Outer&#32;grid.png) ***Outer grid  | .container***
+    ![Outer grid](assets/README/layout_1/Outer&#32;grid.png) 
 
+------
+- ***Inner grid*** 
+  
+        .container
+            main
+                article
+                    grid-template-columns: repeat(3, 1fr) .9fr
+                    grid-template-rows: repeat(4, 1fr)
 
-**grid-template-rows:** repeat(7, 1fr)
-
-
-**grid-template-columns:** repeat(4, 1fr)
-
-<br>
----
-<br>
-
-![Inner grid](assets/README/layout_1/Inner&#32;grid.png) ***Inner grid | .container > main > article***
-
-**grid-template-columns:** repeat(3, 1fr) 0.9fr
-
-**grid-template-rows:**  repeat(4, 1fr)
+    ![Inner grid](assets/README/layout_1/Inner&#32;grid.png) 
