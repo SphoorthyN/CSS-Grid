@@ -45,3 +45,9 @@ A simple layout, where I nested a grid inside the main grid.
                     grid-template-rows: repeat(4, 1fr)
 
     ![Inner grid](assets/README/layout_1/Inner&#32;grid.png)
+
+    As you can see here, the grid lines match up perfectly, as they should, since they've been placed in the cells. *Duh*.
+
+    This grid is not the exact same as the *outer grid*. The way I see it is, the *1fr* columns I've defined here aren't the same as the *1fr* columns defined in the *outer grid*. 
+    
+    This is due to the fact that the first three columns in the *inner grid* shown above have more width to fill than the first three columns of the *outer grid* since the fourth column of the *inner grid* is *0.9fr* units wide, which is thinner than the *1fr* wide fourth column of the *outer grid*.
