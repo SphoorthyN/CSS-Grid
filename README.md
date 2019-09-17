@@ -7,14 +7,13 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 
 ------
 
-#### 1. Layout_1
+#### 1. [Layout_1](html/layout_1.html)
 A simple layout, where I nested a grid inside the main grid. 
 
 ![Layout 1](assets/README/layout_1/layout_1.png) ***Finished layout***
 
-<br>
----
-<br>
+
+------
 
 ![Outer grid](assets/README/layout_1/Outer&#32;grid.png) ***Outer grid  | .container***
 
