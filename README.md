@@ -27,7 +27,7 @@ A simple layout, where I nested a grid inside the main grid.
             grid-template-rows: repeat(7, 1fr)
             grid-template-columns: repeat(4, 1fr)
 
-    ![Outer grid](assets/README/layout_1/Outer&#32;grid_540.png) 
+    ![Outer grid](assets/README/layout_1/Outer&#32;grid.png) 
 
 ------
 3. ***Inner grid*** 
