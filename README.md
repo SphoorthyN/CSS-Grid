@@ -18,10 +18,10 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 A simple layout, where I nested a grid inside the main grid. 
 1. ***Finished layout***
 
-    ![Layout 1](assets/README/layout_1/layout_1.png) 
+    ![Layout 1](assets/README/layout_1/Inner&#32;grid.png) 
 
 ------
-2. ***Outer grid***
+1. ***Outer grid***
   
         .container
             grid-template-rows: repeat(7, 1fr)
@@ -36,7 +36,7 @@ A simple layout, where I nested a grid inside the main grid.
     There's no reason for this other than the fact that I wanted that sidebar to be slightly smaller in width than the individual boxes.
 
 ------
-3. ***Inner grid*** 
+1. ***Inner grid*** 
   
         .container
             main
