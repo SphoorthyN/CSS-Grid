@@ -27,7 +27,13 @@ A simple layout, where I nested a grid inside the main grid.
             grid-template-rows: repeat(7, 1fr)
             grid-template-columns: repeat(4, 1fr)
 
-    ![Outer grid](assets/README/layout_1/Outer&#32;grid.png) 
+    ![Outer grid](assets/README/layout_1/Outer&#32;grid.png)
+
+    You can see slight mismatches between the 3 small boxes, the big box under it and the grid lines since they're laid out to another grid defined as below.
+
+    This happens since the vertical sidebar isn't in the same-sized column as the one defined in the *outer grid*. It is in fact *0.9fr* rather than the *1fr* column shown in the above image. 
+    
+    There's no reason for this other than the fact that I wanted that sidebar to be slightly smaller in width than the individual boxes.
 
 ------
 3. ***Inner grid*** 
