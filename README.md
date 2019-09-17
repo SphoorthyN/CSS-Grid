@@ -38,4 +38,4 @@ A simple layout, where I nested a grid inside the main grid.
                     grid-template-columns: repeat(3, 1fr) .9fr
                     grid-template-rows: repeat(4, 1fr)
 
-    ![Inner grid](assets/README/layout_1/Inner&#32;grid.png) 
+    ![Inner grid](assets/README/layout_1/Inner&#32;grid.png)
