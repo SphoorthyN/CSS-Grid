@@ -16,13 +16,12 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 > In case you want to see the compiled CSS stylesheets, click **[HERE](assets/layout_1/layout_1.css)**.
 
 A simple layout, where I nested a grid inside the main grid. 
-
-- ***Finished layout***
+1. ***Finished layout***
 
     ![Layout 1](assets/README/layout_1/layout_1.png) 
 
 ------
-- ***Outer grid***
+2. ***Outer grid***
   
         .container
             grid-template-rows: repeat(7, 1fr)
@@ -31,7 +30,7 @@ A simple layout, where I nested a grid inside the main grid.
     ![Outer grid](assets/README/layout_1/Outer&#32;grid.png) 
 
 ------
-- ***Inner grid*** 
+3. ***Inner grid*** 
   
         .container
             main
