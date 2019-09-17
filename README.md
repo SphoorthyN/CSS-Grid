@@ -5,9 +5,16 @@ This is a collection of different layouts using CSS grids, both complex and triv
 
 I will try to document each layout as well as I can, but I'm a naturally messy person, so fingers crossed.
 
+> **Note:** Wherever possible, I've linked the related files. For example, the heading *Layout_1* takes you to the *layout_1.html* file of the same repository.
+
 ------
 
 #### 1. [Layout_1](html/layout_1.html)
+
+> The SASS stylesheets for this layout are **[HERE](assets/layout_1/layout_1.sass)**. 
+> 
+> In case you want to see the compiled CSS stylesheets, click **[HERE](assets/layout_1/layout_1.css)**.
+
 A simple layout, where I nested a grid inside the main grid. 
 
 ![Layout 1](assets/README/layout_1/layout_1.png) ***Finished layout***
