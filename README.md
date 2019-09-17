@@ -18,7 +18,7 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 A simple layout, where I nested a grid inside the main grid. 
 1. ***Finished layout***
 
-    ![Layout 1](assets/README/layout_1/Inner&#32;grid.png) 
+    ![Layout 1](assets/README/layout_1/layout_1.png) 
 
 ------
 1. ***Outer grid***
