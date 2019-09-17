@@ -10,13 +10,13 @@ I will try to document each layout as well as I can, but I'm a naturally messy p
 #### 1. Layout_1
 A simple layout, where I nested a grid inside the main grid. 
 
-![Layout 1](assets/README/layout_1.png) ***Finished layout***
+![Layout 1](assets/README/layout_1/layout_1.png) ***Finished layout***
 
 <br>
 ---
 <br>
 
-![Outer grid](assets/README/Outer&#32;grid.png) ***Outer grid  | .container***
+![Outer grid](assets/README/layout_1/Outer&#32;grid.png) ***Outer grid  | .container***
 
 
 **grid-template-rows:** repeat(7, 1fr)
@@ -28,7 +28,7 @@ A simple layout, where I nested a grid inside the main grid.
 ---
 <br>
 
-![Inner grid](assets/README/Inner&#32;grid.png) ***Inner grid | .container > main > article***
+![Inner grid](assets/README/layout_1/Inner&#32;grid.png) ***Inner grid | .container > main > article***
 
 **grid-template-columns:** repeat(3, 1fr) 0.9fr
 
