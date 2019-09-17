@@ -15,7 +15,6 @@
       grid-template-columns: repeat(4, 1fr);
   width: 800px;
   height: 800px;
-      grid-template-areas: "head  head  head  head  head  head  head  ";
   margin: 50px auto;
   grid-gap: 20px;
 }
