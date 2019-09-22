@@ -2,3 +2,7 @@
 
 assets/implicit-explicit_grids/
 html/implicit-explicit_grids.html
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
