@@ -4,8 +4,13 @@
     border: 1px solid black
 body
     +fill($cornflowerBlue)
-
-
-
-
-    
+    display: grid
+    height: 100vh
+    grid-template-columns: [margin-left-start] 20px [margin-left-end spread-start] 1fr [spread-end margin-right-start] 20px [margin-right-end]
+    @include orient-items(center, center)
+    .spread
+        +border()
+        // +fill(white)
+        grid-column: spread-start / spread-end
+        height: 100%
+        width: 100%
