@@ -1,16 +1,56 @@
 @import ../_variables.sass
 
 @mixin border()
-    border: 1px solid black
+    // border: 1px solid black
 body
     +fill($cornflowerBlue)
     display: grid
     height: 100vh
-    grid-template-columns: [margin-left-start] 20px [margin-left-end spread-start] 1fr [spread-end margin-right-start] 20px [margin-right-end]
+    // width: 200vh
+    grid-template-columns: [spread-start] 1fr [spread-end]
     @include orient-items(center, center)
     .spread
         +border()
-        // +fill(white)
         grid-column: spread-start / spread-end
         height: 100%
         width: 100%
+        display: grid
+        // +fill(black)
+        grid-template-rows: [top-bleed spread-margin-top] 20.6fr [spread-top letter-Q-top] 23.5fr [lowercase-top] 25.9fr [lowercase-bottom article-text-top letter-Q-dash-top] 13fr [letter-Q-dash-bottom blurb-text-top] 18.08fr [blurb-text-bottom] 10.9fr [article-text-bottom] 06.46fr [bottom-bleed spread-margin-bottom]
+        grid-template-columns: .27fr 2.22fr .39fr.88fr .25fr .82fr 1.22fr .8fr 1.28fr 1.22fr .31fr .27fr
+
+        .below
+            +fill(#00d0ff85)
+            +size(100%, 100%)
+            box-sizing: border-box
+            border: 5px solid #ec8cdd9c
+            z-index: 0
+
+        // QUALITY - The Word
+        .q
+            grid-area: 2/2/5/4
+        .u
+            grid-area: 3/4/4/6
+        .a
+            grid-area: 3/5/4/7
+        .l
+            grid-area: 3/7/4/8
+        .i
+            grid-area: 3/8/4/9
+        .t
+            grid-area: 3/9/4/10
+        .y
+            grid-area: 3/10/4/12
+
+        .blurb
+            grid-area: 5/2/6/3
+
+        .above
+            +fill(#3aec1685)
+            +size(100%, 100%)
+            border: 5px solid #ec8cdd9c
+            z-index: 1
+        .article
+            grid-area: 4/3/-2/11
+        .footer
+            grid-area: -2/1/-1/-1
