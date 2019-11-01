@@ -1,0 +1,5 @@
+@import url(../../assets/_variables.sass);
+
+body{
+    @include fill(blue)
+}

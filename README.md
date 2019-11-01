@@ -1,4 +1,4 @@
-# CSS GRID Practice Exercises and Examples
+****# CSS GRID Practice Exercises and Examples
 
 
 This is a collection of different layouts using CSS grids, both complex and trivial, practice assignments, self-developed layouts as well as my interpretation of different layouts from print media as I keep learning how to use CSS Grids. 
@@ -51,3 +51,22 @@ A simple layout, where I nested a grid inside the main grid.
     This grid is not the exact same as the *outer grid*. The way I see it is, the *1fr* columns I've defined here aren't the same as the *1fr* columns defined in the *outer grid*. 
     
     This is due to the fact that the first three columns in the *inner grid* shown above have more width to fill than the first three columns of the *outer grid* since the fourth column of the *inner grid* is *0.9fr* units wide, which is thinner than the *1fr* wide fourth column of the *outer grid*.
+
+------
+------
+------
+
+#### 2. [TWEN Magazine Page 50](TWEN_Magazine/TWEN_Magazine_Pg_50.html)
+
+> The SASS stylesheets for this layout are **[HERE](TWEN_Magazine/assets/TWEN_Magazine_Pg_50.sass)**. 
+> 
+> In case you want to see the compiled CSS stylesheets, click **[HERE](TWEN_Magazine/assets/TWEN_Magazine_Pg_50.css)**.
+
+
+I tried replicating the layout of *Page 50* of *TWEN Magazine*, a German publication which was active in the post WW2 years.
+
+1. ***Source Layout***
+
+    ![Source Layout](assets/README/TWEN&#32;Magazine/TWEN&#32;Magazine.png)
+
+2. ***Grid Layout***
